@@ -32,30 +32,39 @@ text-decoration: none;
 #welcome-section {
 text-align: center;
 height: 100vh;
-padding-top: 55vh;
-top: 0;
-margin:0;
+padding-top: 60vh;
 }
 
 .about-me {
-  margin-left: 100vh;
+  outline: 2px solid black;
+  padding-top: 10vh;
+  padding-bottom: 15vh; 
 }
 
 .myImage {
 float: left;
-margin-right: 10px;
+margin-left: 40vh;
 margin-bottom: 10px;
-padding: 2px; 
+padding-right: 30px; 
 }
 
-.about-me span{
+.about-me h1{
+padding: 10px;
+margin-right: 300px;
+}
 
+.about-me p{
+text-align: left;
+margin-right: 300px;
+margin-left: 400px;
+padding: 10px;
 }
 
 #skills {
 text-align: center;
-padding: 25px;
-margin: 25px;
+ outline: 2px solid black;
+ padding-top: 10vh;
+ padding-bottom: 15vh; 
 }
 
 #skills h1 {
@@ -70,15 +79,19 @@ list-style: none;
 
 #projects {
 top: 0;
-padding: 25px;
 margin: 25px;
+ outline: 2px solid black;
+  padding-top: 10vh;
+  padding-bottom: 15vh; 
 }
 
 
 #contact-me {
 top: 0;
-padding: 25px;
 margin: 25px;
+outline: 2px solid black;
+  padding-top: 10vh;
+  padding-bottom: 15vh; 
 }
 
 #contact-me ul li{
