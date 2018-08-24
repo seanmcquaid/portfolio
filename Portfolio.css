@@ -36,9 +36,11 @@ padding-top: 60vh;
 }
 
 .about-me {
-  outline: 2px solid black;
-  padding-top: 10vh;
-  padding-bottom: 15vh; 
+/**
+outline: 2px solid black;
+**/
+padding-top: 20vh;
+padding-bottom: 20vh; 
 }
 
 .myImage {
@@ -62,9 +64,8 @@ padding: 10px;
 
 #skills {
 text-align: center;
- outline: 2px solid black;
- padding-top: 10vh;
- padding-bottom: 15vh; 
+padding-top: 10vh;
+padding-bottom: 15vh; 
 }
 
 #skills h1 {
@@ -73,27 +74,38 @@ padding: 40px;
 
 #skills ul li{
 top: 0;
+padding: 10px;
 list-style: none;
 }
 
 
 #projects {
+display: grid;
 top: 0;
-margin: 25px;
- outline: 2px solid black;
-  padding-top: 10vh;
-  padding-bottom: 15vh; 
+margin: 35px;
+padding-top: 20vh;
+padding-bottom: 25vh; 
 }
 
+#projects h1 {
+padding: 30px;
+}
+
+#projects a {
+padding: 20px;
+}
 
 #contact-me {
 top: 0;
 margin: 25px;
-outline: 2px solid black;
-  padding-top: 10vh;
-  padding-bottom: 15vh; 
+padding-top: 10vh;
+padding-bottom: 15vh; 
 }
 
-#contact-me ul li{
-list-style: none;
+.fa {
+padding: 30px;
+width: 30vh;
+height: 30vh;
+text-decoration: none;
+color: blue;
 }
