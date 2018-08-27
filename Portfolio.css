@@ -62,22 +62,6 @@ margin-left: 400px;
 padding: 10px;
 }
 
-#skills {
-text-align: center;
-padding-top: 10vh;
-padding-bottom: 15vh; 
-}
-
-#skills h1 {
-padding: 40px;
-}
-
-#skills ul li{
-top: 0;
-padding: 10px;
-list-style: none;
-}
-
 
 #projects {
 display: grid;
