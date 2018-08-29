@@ -36,9 +36,7 @@ padding-top: 60vh;
 }
 
 .about-me {
-/**
-outline: 2px solid black;
-**/
+margin: auto;
 padding-top: 20vh;
 padding-bottom: 20vh; 
 }
@@ -64,30 +62,42 @@ padding: 10px;
 
 
 #projects {
-display: grid;
 top: 0;
 margin: 35px;
 padding-top: 20vh;
-padding-bottom: 25vh; 
+padding-bottom: 25vh;
 }
 
 #projects h1 {
 padding: 30px;
 }
 
-#projects a {
+
+#projects td a img {
 padding: 20px;
+height: 30vh;
+width: 30vh;
 }
+
+table {
+margin: auto;
+}
+
+td {
+width: 100px;
+height: 100px;
+}
+
 
 #contact-me {
 top: 0;
 margin: 25px;
 padding-top: 10vh;
-padding-bottom: 15vh; 
+padding-bottom: 20vh; 
 }
 
 .fa {
-padding: 30px;
+padding: 25px;
 width: 30vh;
 height: 30vh;
 text-decoration: none;
